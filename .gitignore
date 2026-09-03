@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# LaTeX auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Report/slide build PDFs; keep only the required canonical deliverables.
+report/*.pdf
+!report/report.pdf
+slides/*.pdf
+!slides/slides.pdf
